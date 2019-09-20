@@ -3,5 +3,5 @@ LABEL maintainer="markons996@gmail.com"
 COPY . /app
 WORKDIR /app
 RUN pip install -r requirements.txt
-EXPOSE 5000
+EXPOSE 8080
 CMD ["python", "app/sample.py"]
